@@ -24,18 +24,11 @@ export default function decorate(block) {
       if (link) {
         link.classList.add('main_content_text-a');
         linkDiv.append(link);
-        // Add SVG arrow
-        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-        svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-        svg.setAttribute('width', '7');
-        svg.setAttribute('height', '12');
-        svg.setAttribute('viewBox', '0 0 7 12');
-        svg.setAttribute('fill', 'none');
-        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d', 'M5.29238 5.99525L0.692383 1.39525L1.40013 0.6875L6.70788 5.99525L1.40013 11.303L0.692383 10.5953L5.29238 5.99525Z');
-        path.setAttribute('fill', '#4053FC');
-        svg.append(path);
-        linkDiv.append(svg);
+        // Add > symbol
+        const arrow = document.createElement('span');
+        arrow.textContent = ' >';
+        arrow.style.marginLeft = '8px';
+        linkDiv.append(arrow);
       }
       row.append(linkDiv);
     }

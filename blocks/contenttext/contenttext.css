@@ -1,8 +1,9 @@
 .main_content_text_link-div {
-  width: 806px;
+  width: 100%;
+  max-width: 806px;
   min-height: 174px;
   opacity: 1;
-  margin-top: 48px;
+  margin: 48px auto 0;
 }
 
 .main_content_text-h1 {
@@ -25,22 +26,31 @@
 }
 
 .main_content_text-div {
-  margin-left: 75px;
-  width: 656px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 656px;
+  text-align: center;
 }
 
 .main_content_text-a {
-  font-family: var(--fontFamilies-light);
-  font-weight: var(--fontWeights-normal);
-  font-size: var(--fontSizes-b1);
-  line-height: var(--lineHeights-l);
-  letter-spacing: 0.8px;
-  color: var(--colors-advantageBlue-standard);
+  font-family: var(--fontFamilies-light) !important;
+  font-weight: var(--fontWeights-normal) !important;
+  font-size: var(--fontSizes-b1) !important;
+  line-height: var(--lineHeights-l) !important;
+  letter-spacing: 0.8px !important;
+  color: var(--colors-advantageBlue-standard) !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  display: inline !important;
 }
 
 .main_content_text-a:hover {
-  opacity: 0.7;
-  transition: 0.2s;
+  opacity: 0.7 !important;
+  transition: 0.2s !important;
+  text-decoration: underline !important;
 }
 
 .marintobottom-aboutus {
@@ -53,10 +63,11 @@
   text-align: center;
 }
 
-.marintobottom-aboutuslink svg {
+.marintobottom-aboutuslink span {
   position: relative;
   top: 2px;
-  left: 8px;
+  margin-left: 8px;
+  color: #4053FC;
 }
 
 @media (max-width: 768px) {
