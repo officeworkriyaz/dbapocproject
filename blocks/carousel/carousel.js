@@ -63,6 +63,12 @@ function bindEvents(block) {
     showSlide(block, parseInt(block.dataset.activeSlide, 10) + 1);
   });
 
+  // Auto scroll every 5 seconds
+  setInterval(() => {
+    const current = parseInt(block.dataset.activeSlide || 0, 10);
+    showSlide(block, current + 1);
+  }, 5000);
+
   const slideObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) updateActiveSlide(entry.target);
