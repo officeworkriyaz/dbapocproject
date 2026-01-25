@@ -10,7 +10,52 @@
  * governing permissions and limitations under the License.
  */
 
+
 :root {
+ /* --fontSizes-h1: 2.75rem;
+  --fontSizes-h2: 2rem;
+  --fontSizes-h3: 1.5rem;
+  --fontSizes-h4: 1rem;
+  --fontSizes-h5: 0.8125rem;
+  --fontSizes-b1: 1rem;
+  --fontSizes-b2: 0.8125rem;
+  --fontSizes-label: 0.8125rem;
+  --fontSizes-paragraph1: 1rem;
+  --fontSizes-paragraph2: 0.8125rem;
+  --fontFamilies-light: 'CliffordChanceVariableVF';
+  --fontFamilies-italic: 'CliffordChanceVariableVFItalic';
+  --fontWeights-normal: 400;
+  --fontWeights-light: 500;
+  --fontWeights-regular: 700;
+  --lineHeights-l: 1.50;
+  --lineHeights-m: 1.30;
+  --lineHeights-s: 1.20;
+  --borderWidths-hairline: 1px;
+  --colors-black: rgba(4, 1, 0, 1);
+  --colors-white: rgba(255, 255, 255, 1);
+  --colors-grey1: rgba(4, 1, 0, 0.7);
+  --colors-gray2: #666666;
+  --colors-gray3: rgba(4, 1, 0, 0.1);
+  --colors-gray4: rgba(4, 1, 0, 0.05);
+  --colors-blushPink: rgba(250, 238, 240, 1);
+  --colors-advantageBlue1: rgba(68, 83, 244, 1);
+  --colors-advantageBlue2: rgba(91, 104, 245, 1);
+  --colors-advantageBlue-standard: rgba(64, 83, 252, 1);
+  --colors-charredUmber: rgba(49, 42, 34, 1);
+  --colors-racingGreen: rgba(40, 56, 50, 1);
+  --colors-paleMint: rgba(234, 247, 233, 1);
+  --colors-orange1: rgba(249, 112, 18, 1);
+  --colors-red1: rgba(217, 19, 8, 1);
+  --colors-green1: rgba(0, 134, 83, 1);
+  --colors-orange2: rgba(252, 126, 33, 1);
+  --colors-red2: rgba(252, 52, 36, 1);
+  --colors-green2: rgba(0, 194, 109, 1);
+  --colors-frostedBlue: rgba(230, 238, 255, 1);
+  --colors-twilightBlue: rgba(56, 44, 81, 1);
+  --spacing-frame18: 52.50000762939453rem;
+  --letterSpacings-regular: 0em;*/
+  
+  
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
@@ -20,8 +65,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: CliffordChanceVariableVF;
+  --heading-font-family: CliffordChanceVariableVF;
 
   /* body sizes */
   --body-font-size-m: 22px;
