@@ -1,13 +1,13 @@
 /* stylelint-disable max-line-length */
-@font-face{
+@font-face {
   font-family: 'CliffordChanceVariableVF';
   src: url('../fonts/CliffordChanceVariableVF.woff2') format('woff2');
 }
 
-@font-face{
+/* @font-face {
   font-family: 'CliffordChanceVariableVFItalic';
   src: url('../fonts/CliffordChanceVariable-ItalicVF.woff2') format('woff2');
-}
+} */
 /*
 @font-face {
   font-family: roboto-condensed;
