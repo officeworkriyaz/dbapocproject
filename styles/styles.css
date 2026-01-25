@@ -65,8 +65,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: CliffordChanceVariableVF;
-  --heading-font-family: CliffordChanceVariableVF;
+  --body-font-family: 'CliffordChanceVariableVF';
+  --heading-font-family: 'CliffordChanceVariableVF';
 
   /* body sizes */
   --body-font-size-m: 22px;
