@@ -145,8 +145,6 @@ export default async function decorate(block) {
   const rows = block.querySelectorAll(':scope > div');
   const isCardsVariant = block.classList.contains('cards');
 
-  
-
   // For cards variant, first row with single column is the title
   let titleRow = null;
   let slideRows = rows;
