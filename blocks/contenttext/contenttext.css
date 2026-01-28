@@ -94,7 +94,7 @@
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .main_content_text_link-div {
     padding-left: 7.5%;
     width: 95%;
