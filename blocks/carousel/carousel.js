@@ -145,10 +145,7 @@ export default async function decorate(block) {
   const rows = block.querySelectorAll(':scope > div');
   const isCardsVariant = block.classList.contains('cards');
 
-  // Debug logging
-  console.log('Carousel Block Classes:', block.className);
-  console.log('Is Cards Variant:', isCardsVariant);
-  console.log('Number of rows:', rows.length);
+  
 
   // For cards variant, first row with single column is the title
   let titleRow = null;
