@@ -36,7 +36,7 @@ function showSlide(block, slideIndex = 0) {
   const isCardsVariant = block.classList.contains('cards');
 
   if (isCardsVariant) {
-    // For cards variant, scroll by groups of 3
+    // For cards variant, scroll by groups of three (3)
     const totalSlides = slides.length;
     const maxIndex = Math.max(0, totalSlides - 3);
     let realSlideIndex = slideIndex < 0 ? 0 : slideIndex;
