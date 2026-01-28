@@ -45,7 +45,7 @@
   inset: 0;
 }
 
-.carousel .carousel-slide .carousel-slide-image picture::after {
+.carousel:not(.cards) .carousel-slide .carousel-slide-image picture::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -67,6 +67,9 @@
   position: relative;
   width: var(--slide-content-width, auto);
   font-family: var(--body-font-family);
+}
+
+.carousel:not(.cards) .carousel-slide .carousel-slide-content {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
